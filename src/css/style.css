@@ -1,94 +1,98 @@
-* {
-    font-family: 'Balsamiq Sans', cursive;
-    font-family: 'Roboto', sans-serif;
-}
-
+/* line 3, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 header {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: absolute; */
-    height: 70px;
-    background: #FFFFFF;
+  height: 70px;
+  background: #FFFFFF;
 }
 
-.header_menu {
-    width: 830px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 14px 0;
-    align-items: center;
+/* line 7, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
+.menu {
+  width: 830px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 14px 0;
+  align-items: center;
 }
 
+/* line 15, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .menu_item {
-    list-style-type: none;
+  list-style-type: none;
 }
 
+/* line 18, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .menu_logo {
-    max-height: 45px;
-    margin: 0 40px;
+  max-height: 45px;
+  margin: 0 40px;
 }
 
+/* line 22, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .menu_link {
-    font-family: 'Balsamiq Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #868E96;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #868E96;
 }
 
+/* line 30, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .promo {
-    background: url(../img/background-promo.png) top center/cover no-repeat;
-    height: 800px;
+  background: url(../img/background-promo.png) top center/cover no-repeat;
+  height: 800px;
 }
 
+/* line 34, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .promo_title {
-    max-width: 884px;
-    font-family: 'Balsamiq Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 120%;
-    text-transform: uppercase;
-    color: #0A12CA;
-    margin-top: 88px;
-    text-align: center;
+  max-width: 884px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #0A12CA;
+  margin-top: 88px;
+  text-align: center;
 }
 
-.colortext_dark {
-    color: #262626;
-}
-
+/* line 46, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .promo_subtitle {
-    max-width: 707px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 120%;
-    color: #666666;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 30px;
+  max-width: 707px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #666666;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
+/* line 58, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .promo_badges {
-    display: flex;
-    max-width: 472px;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 25px;
+  display: flex;
+  max-width: 472px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 
+/* line 65, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
+.colortext_dark {
+  color: #262626;
+}
+
+/* line 68, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .badge {
-    padding: 10px 15px;
-    background: #EDEDED;
-    border-radius: 5px;
+  padding: 10px 15px;
+  background: #EDEDED;
+  border-radius: 5px;
 }
 
+/* line 73, ../../../../../../../../../../../../../Applications/focus-for-frontend-developers/src/sass/style.sass */
 .card-img-top {
-    max-width: 100px;
+  max-width: 100px;
 }
+
+/*# sourceMappingURL=style.css.map */
