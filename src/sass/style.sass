@@ -1,8 +1,14 @@
 $main_color: #0A12CA
 
+*
+    box-sizing: border-box;
+
 header
     height: 70px
     background: #FFFFFF
+
+.container
+    max-width: 1140px
 
 .menu
     width: 830px
@@ -29,7 +35,7 @@ header
 
 .promo
     background: url(../img/background-promo.png) top center/cover no-repeat
-    height: 800px
+    max-height: 800px
 
     &_title
         max-width: 884px
@@ -70,5 +76,39 @@ header
     background: #EDEDED
     border-radius: 5px
 
-.card-img-top
-    max-width: 100px
+.techology-wrapper
+    display: flex
+    justify-content: center
+    gap: 20px
+    margin: 40px
+    flex-wrap: wrap
+
+.techology_img
+    max-width: 200px
+
+.techology_text
+    text-align: center
+    margin-top: 10px
+    font-weight: 500
+
+.for-whom
+    max-height: 700px
+    background: #EBECFF
+
+h2
+    max-width: 636px
+    font-family: 'Balsamiq Sans'
+    font-style: normal
+    font-weight: 700
+    font-size: 40px
+    line-height: 120%
+    text-align: center
+    margin: 0 auto
+    margin-top: 60px
+    text-transform: uppercase
+    color: #262626
+
+.for-wrapper
+    display: flex
+
+
